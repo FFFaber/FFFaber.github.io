@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    padding: 25px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    box-shadow: 0 10px 10px black;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.titulo{
+    margin-bottom: 25px;
+}
+input{
+    outline: none;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: none;
+}
+span{
+    font-size: 30px;
+}
+.container .unit{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+#unitCategory{
+    width: 48%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    outline: none;
+    background-color: #f7f7f7;
+    color: blue;
+    margin: 3px;
+}
+#resultCategory{
+    width: 48%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    outline: none;
+    background-color: #f7f7f7;
+    color: green;
+    margin: 3px;
+}
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: red;
+}
+
+#titulo {
+    margin-bottom: 20px;
+}
+
+.inputField {
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-top: 22px;
+    align-items: center;
+}
+#speed {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: purple;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+#force {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(230, 230, 3);
+    border-radius: 3px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+
+}
+#work {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
+#long {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+}
+#peso {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(219, 54, 54);
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+#time {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+#temp {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(152, 236, 26);
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+#carga {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: salmon;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+#poten {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: royalblue;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+#dens {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+#dif {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: khaki;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+#vol {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-left: 25px;
+}
+a {
+    background-color: black;
+    display: inline-block;
+    color: white;
+}

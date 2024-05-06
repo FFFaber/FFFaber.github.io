@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades de Faber</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color: turquoise;">
+   <a href="inicio.html" style="position: fixed; top: 10px; left: 10px; z-index: 9999; font-size: 30px";>Volver al inicio...</a>
+    <div class="container">
+        <h1 id="titulo">Conversor de unidades de volumen de Faber</h1>
+        <div class="inputField">
+              <input type="number" id="inputBox" placeholder="Valor...">
+              <span>=</span>
+              <input type="number" id="resultBox" placeholder="Resultado..." readonly>
+        </div>
+
+     <div class="unit"></div>
+        <select name="" id="unitCategory">
+            <option value="m3">Metro cúbico (m³)</option>
+            <option value="litro">Litro (L)</option>
+            <option value="cm3">Centímetro cúbico (cm³)</option>
+            <option value="mililitro">Mililitro (mL)</option>
+            <option value="ft3">Pie cúbico (ft³)</option>
+            <option value="in3">Pulgada cúbica (in³)</option>
+            <option value="yd3">Yarda cúbica (yd³)</option>
+            <option value="galon">Galón (gal)</option>
+        </select>
+
+        <select name="" id="resultCategory">
+            <option value="m3">Metro cúbico (m³)</option>
+            <option value="litro">Litro (L)</option>
+            <option value="cm3">Centímetro cúbico (cm³)</option>
+            <option value="mililitro">Mililitro (mL)</option>
+            <option value="ft3">Pie cúbico (ft³)</option>
+            <option value="in3">Pulgada cúbica (in³)</option>
+            <option value="yd3">Yarda cúbica (yd³)</option>
+            <option value="galon">Galón (gal)</option>
+        </select>
+     <div class="btn">
+        <button>Borrar</button>
+     </div>
+
+     <div class="options">
+        <button type="button" id="long" onclick="irLong()">Longitud</button>
+        <button type="button" id="speed" onclick="irVel()" style="margin-left: 25px;
+        margin-right: 25px;">Velocidad</button>
+        <button type="button" id="force" onclick="irFuer()" style="margin-right: 25px;">Fuerza</button>
+        <button type="button" id="work" onclick="irWork()">Trabajo</button>
+        <button type="button" id="dif" onclick="irDif()">Tensión</button>
+        <button type="button" id="peso" onclick="irMasa()">Masa</button><br><br>
+        <button type="button" id="temp" onclick="irTemp()" style="margin-right: 25px;">Temperatura</button>
+        <button type="button" id="time" onclick="irTime()">Tiempo</button>
+        <button type="button" id="carga" onclick="irCarga()">Carga Eléc.</button>
+        <button type="button" id="poten" onclick="irPoten()">Potencia</button>
+        <button type="button" id="dens" onclick="irDens()">Densidad</button>
+     </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades de Faber</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color: lightblue;">
+    <div class="container">
+        <h1 id="titulo">Conversor de unidades de Faber</h1>
+         <h2>Bienvenido al "conversor de unidades de Faber".<br>Justo debajo se puede acceder a los conversores que ya cree.<br>La página no es más que una simple prueba y experimento,<br>
+         sin embargo, no dudes en darme <em>sugerencias</em> para agregar.<br>Pienso agregar una calculadora y algún inicio un poco más lindo...</h2>
+
+
+     <div class="options">
+        <button type="button" id="speed" onclick="irVel()">Velocidad</button>
+        <button type="button" id="force" onclick="irFuer()" style="margin-left: 25px;
+        margin-right: 25px;">Fuerza</button>
+        <button type="button" id="work" onclick="irWork()">Trabajo</button>
+        <button type="button" id="peso" onclick="irMasa()">Masa</button>
+        <button type="button" id="vol" onclick="irVol()">Volumen</button>
+        <button type="button" id="temp" onclick="irTemp()" style="margin-left: 25px;">Temperatura</button><br><br>
+        <button type="button" id="time" onclick="irTime()">Tiempo</button>
+        <button type="button" id="carga" onclick="irCarga()">Carga Eléc.</button>
+        <button type="button" id="poten" onclick="irPoten()">Potencia</button>
+        <button type="button" id="dens" onclick="irDens()">Densidad</button>
+        <button type="button" id="dif" onclick="irDif()">Tensión</button>
+     </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
