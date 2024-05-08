@@ -898,6 +898,3 @@ function irDif(){
 function irVol(){
     window.location.href = "volumen.html"
 }
-function irLong(){
-    window.location.href = "longitud.html"
-}
