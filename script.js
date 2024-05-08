@@ -863,7 +863,7 @@ function clearInput() {
     resultBox.value = "";
 }
 function irLong(){
-    window.location.href = "longitud.html";
+    window.location.href = "https://fffaber.github.io/longitud.html";
 }
 function irVel(){
     window.location.href = "velocidad.html";
