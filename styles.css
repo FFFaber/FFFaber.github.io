@@ -45,6 +45,7 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 nav {
@@ -118,6 +119,7 @@ header .section__container {
 }
 
 .header__content p {
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -373,4 +375,62 @@ footer p {
   .display__card p {
     font-size: 1rem;
   }
+}
+@media (max-width: 767px) {
+  /* Reducir el tamaño del texto en pantallas pequeñas */
+  body {
+    font-size: 0.875rem; /* Reduce el tamaño base */
+  }
+
+  .header__content h1 {
+    font-size: 3rem; /* Reduce el tamaño del título */
+  }
+
+  .header__content p {
+    font-size: 0.9rem; /* Ajusta el tamaño del párrafo */
+  }
+
+  .journey__container h2 {
+    font-size: 1.5rem; /* Título de la sección más pequeño */
+  }
+
+  .journey__container p {
+    font-size: 0.875rem; /* Párrafo más pequeño */
+  }
+}
+
+/* Ajustes para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+  /* Reducir ligeramente el tamaño en tabletas */
+  .header__content h1 {
+    font-size: 4rem;
+  }
+  .header__content p {
+    font-size: 1rem;
+  }
+
+  .journey__container h2 {
+    font-size: 1.75rem;
+  }
+
+  .journey__container p {
+    font-size: 1rem;
+  }
+}
+
+/* Ajustes para pantallas más grandes */
+@media (min-width: 1025px) {
+  .header__content h1 {
+    font-size: 5rem;
+  }
+
+  .header__content p {
+    font-size: 1.125rem; /* Aumentar tamaño de texto en pantallas grandes */
+  }
+}
+.country__card img.enlarged {
+  transform: scale(1.2); /* Controla cuánto se agranda la imagen */
+  transition: transform 0.3s ease-in-out; /* Suaviza la transición */
+  z-index: 1; /* Asegúrate de que esté por encima */
+  position: relative; /* Para evitar problemas de superposición */
 }

@@ -169,5 +169,18 @@
         </p>
       </div>
     </footer>
+    <script>
+      // Selecciona todos los textos dentro de las tarjetas de países
+      document.querySelectorAll('.country__name').forEach(function (element) {
+        element.addEventListener('click', function () {
+          // Busca la imagen asociada dentro del contenedor .country__card
+          const img = this.closest('.country__card').querySelector('img');
+          if (img) {
+            // Alterna la clase 'enlarged' para agrandar o reducir la imagen
+            img.classList.toggle('enlarged');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
