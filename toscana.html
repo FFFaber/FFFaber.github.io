@@ -46,42 +46,42 @@
             <img src="assets/MONTALCINO.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Montalcino, ideal para una copa de vino en la plaza.</span>
+              <p>Montalcino, ideal para una copa de vino en la plaza.</p>
             </div>
           </div>
           <div class="country__card">
             <img src="assets/MONTERIGGIONI.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Monteriggioni, donde el tiempo parece haberse detenido.</span>
+              <p>Monteriggioni, donde el tiempo parece haberse detenido.</p>
             </div>
           </div>
           <div class="country__card">
             <img src="assets/PISTOIA.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Pistoia, donde la auténtica Toscana se hace notar.</span>
+              <p>Pistoia, donde la auténtica Toscana se hace notar.</p>
             </div>
           </div>
           <div class="country__card">
             <img src="assets/PITIGLIANO.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Pitigliano, elegante y pintoresco con de origen etrusco. </span>
+              <p>Pitigliano, elegante y pintoresco con de origen etrusco. </p>
             </div>
           </div>
           <div class="country__card">
             <img src="assets/SAN-GIMINIANO.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>San Giminiano, una región que conserva lo medieval.</span>
+              <p>San Giminiano, una región que conserva lo medieval.</p>
             </div>
           </div>
           <div class="country__card">
             <img src="assets/VOLTERRA.jpg" alt="country" />
             <div class="country__name">
               <i class="ri-map-pin-2-fill"></i>
-              <span>Volterra, con variedad de arte y arquitectura.</span>
+              <p>Volterra, con variedad de arte y arquitectura.</p>
             </div>
           </div>
         </div>
@@ -169,18 +169,5 @@
         </p>
       </div>
     </footer>
-    <script>
-      // Selecciona todos los textos dentro de las tarjetas de países
-      document.querySelectorAll('.country__name').forEach(function (element) {
-        element.addEventListener('click', function () {
-          // Busca la imagen asociada dentro del contenedor .country__card
-          const img = this.closest('.country__card').querySelector('img');
-          if (img) {
-            // Alterna la clase 'enlarged' para agrandar o reducir la imagen
-            img.classList.toggle('enlarged');
-          }
-        });
-      });
-    </script>
   </body>
 </html>
