@@ -154,6 +154,9 @@ header .section__container {
 }
 
 .country__name {
+  cursor: default;
+  pointer-events: none;
+  user-select: none;
   padding: 1rem;
   text-align: left;
   display: flex;
@@ -427,10 +430,4 @@ footer p {
   .header__content p {
     font-size: 1.125rem; /* Aumentar tamaño de texto en pantallas grandes */
   }
-}
-.country__card img.enlarged {
-  transform: scale(1.2); /* Controla cuánto se agranda la imagen */
-  transition: transform 0.3s ease-in-out; /* Suaviza la transición */
-  z-index: 1; /* Asegúrate de que esté por encima */
-  position: relative; /* Para evitar problemas de superposición */
 }
